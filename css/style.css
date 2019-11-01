@@ -1,0 +1,139 @@
+body {
+  background: rgb(213,213,213);
+  background: linear-gradient(180deg, rgba(213,213,213,1) 0%, rgba(176,176,176,1) 48%, rgba(134,134,134,1) 100%);
+}
+
+nav {
+  border-radius: 25px 25px 25px 25px;
+  margin-bottom: 1vh;
+}
+
+.nav-item {
+  transform: rotate(10deg);
+}
+
+nav img {
+  width: 15%;
+}
+
+#addBlog {
+  color: lightblue;
+  border-color: grey;
+  transform: rotate(10deg);
+}
+
+#addNewBtn {
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px 5px 5px 5px;
+  padding: 8px;
+  border: 2px solid lightgrey;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+#addNewBtn:hover {
+  color: #ffffff;
+  background: grey;
+  border-color: lightgrey;
+  transition: all 0.8s ease 0s;
+  text-transform: uppercase;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card, .card img {
+ border-radius: 25px 25px 25px 25px;
+}
+
+.card img {
+  border: solid 0.3vh grey;
+}
+
+.card img:hover {
+  opacity: 0.7;
+  transform: rotate(3deg);
+}
+
+
+.card-body {
+  padding: 1vh;
+}
+
+.mx-auto {
+  margin: 1vh;
+  font-size:  0.7rem;
+  border: 1px solid grey;
+  padding: 5px 10px 5px 10px;
+  color: black;
+  box-shadow: inset 3px grey;
+  border-radius: 10px;
+}
+
+.p-a-2 {
+  margin: 2vh;
+  padding: 3vh;
+  border: 1px solid lightgrey;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.lazyBtn {
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  border-radius: 5px 5px 5px 5px;
+  padding: 8px;
+  border: 2px solid lightgrey;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.lazyBtn:hover {
+  color: #ffffff;
+  font-weight: bold;
+  background: grey;
+  border-color: lightgrey;
+  transition: all 0.8s ease 0s;
+  text-transform: uppercase;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input {
+  margin: 1px;
+  padding: 1px;
+  float: right;
+  width: 150px; 
+  background-color: lightgrey;
+  border: 2px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 0.8rem;
+}
+
+input:hover {
+  background: grey;
+  border-color: lightgrey;
+  transition: all 0.8s ease 0s;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .lg-screens {
+    margin: 5px 0; }
+
+  .flex-lg-row {
+    margin: 0 3px;
+    padding: 0;
+    align-items: flex-start; }
+
+  .col-lg-12 {
+    padding-left: 0;
+    padding-right: 0; } 
+  }
+
+footer {
+   border-radius: 25px 25px 25px 25px;
+   padding: 3vh;
+   border:  1px solid lightgrey;
+   margin-top: 1vh;
+}
