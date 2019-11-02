@@ -54,8 +54,26 @@ nav img {
   transform: rotate(3deg);
 }
 
-
 .card-body {
+  animation-name: angry-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+@keyframes angry-animation {
+  0%{
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+}
   padding: 1vh;
 }
 

@@ -58,7 +58,7 @@ class Restaurant extends Locations {
 						<p>Kind of ${this.kindOf}</p>
 						<p>Address: ${this.address}</p>
 						<p>ZIP: ${this.zip}</p>
-						<p>Tel.: ${this.phone}</p>
+						<p>Phone: ${this.phone}</p>
 						<a href="${this.www}">Website</a>
 					</div>
 				</div>
@@ -166,7 +166,7 @@ for (let i = 0; i < arraySummary[0].length; i++){
                                 <div class="card-body p-2 d-flex flex-column flex-lg-row" id="data${+i}">`
 								
 	let datas = document.getElementById("data" +i)
-	
+
     for (let j = 1; j < arraySummary.length; j++){
         datas.innerHTML += `<div id="sourceData${+j}" ${arraySummary[j][i]}</div>`
 								}
@@ -272,7 +272,7 @@ function addEntry(e) {
 										<img class="card-img" style="object-fit:cover" src="${inputData[0][1][3]}">
 									</div>
 									<div class="col-sm-10 col-md-5 col-lg-12 offset-1 offset-lg-0">
-										<p><b><u>Place</u>: ${inputData[0][1][0]}</b></p>
+										<p><b>Place: ${inputData[0][1][0]}</b></p>
 										<p>Address: ${inputData[0][1][1]}</p>
 										<p>ZIP: ${inputData[0][1][2]}</p>
 									</div>
@@ -286,7 +286,7 @@ function addEntry(e) {
 										<img style="object-fit:cover" class="card-img" src="${inputData[0][2][6]}">
 									</div>
 									<div class="col-sm-10 col-md-5 col-lg-12 offset-1 offset-lg-0">
-										<p><b><u>Restaurant</u>: ${inputData[0][2][0]}</b></p>
+										<p><b>Restaurant: ${inputData[0][2][0]}</b></p>
 										<p>Kind of ${inputData[0][2][1]}</p>
 										<p>Address: ${inputData[0][2][2]}</p>
 										<p>ZIP: ${inputData[0][2][3]}</p>
@@ -303,7 +303,7 @@ function addEntry(e) {
 										<img style="object-fit:cover" class="card-img" src="${inputData[0][3][7]}">
 									</div>
 									<div class="col-sm-10 col-md-5 col-lg-12 offset-1 offset-lg-0">
-										<p><b><u>Event</u>: ${inputData[0][3][0]}</b></p>
+										<p><b>Event: ${inputData[0][3][0]}</b></p>
 										<p>Date: ${inputData[0][3][1]}</p>
 										<p>Time: ${inputData[0][3][2]}</p>
 										<p>Price: EUR ${inputData[0][3][4]}</p>
